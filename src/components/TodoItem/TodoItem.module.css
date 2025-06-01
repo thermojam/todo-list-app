@@ -90,10 +90,6 @@
     background: #24272c;
 }
 
-.editBtn:hover {
-    border: 2px solid #0aff99;
-}
-
 .deleteBtn {
     border: 2px solid transparent;
     outline: none;
@@ -105,6 +101,3 @@
     cursor: pointer;
 }
 
-.deleteBtn:hover {
-    border: 2px solid #0aff99;
-}
