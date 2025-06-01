@@ -9,3 +9,6 @@
   color: rgba(23, 23, 23, 0.87);
   background-color: #24272C;
 }
+body {
+    padding: 100px 0;
+}

@@ -1,41 +1,79 @@
 .app {
-    max-width: 1200px;
+    padding: 30px 30px 90px 30px;
     margin: 0 auto;
-
-}
-
-.title {
-    margin-top: 20px;
-    background: linear-gradient(180deg, #2fb8ff 40%, #0aff99 100%);;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    max-width: 800px;
+    display: grid;
+    justify-items: center;
+    font-family: Nunito, sans-serif;
+    box-shadow: inset 2px 2px 4px 0 rgba(0, 0, 0, 0.25), inset -2px -2px 4px 0 rgba(255, 255, 255, 0.25);
+    background: #24272c;
+    border-radius: 24px;
 }
 
 .items {
-    margin-top: 30px;
+    margin-top: 60px;
+    /*list-style: none;*/
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    width: 600px;
+    font-family: Nunito, sans-serif;
 }
 
-.item {
+.title {
+    font-family: Nunito, sans-serif;
     background: linear-gradient(180deg, #2fb8ff 40%, #0aff99 100%);;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    list-style: none;
-    /*color: #2fb8ff ;*/
-    /*list-style-type: disc;*/
-    padding: 8px 10px 9px 20px;
-    margin-top: 10px;
-    max-width: 600px;
-    border-radius: 20px;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+.controls {
+    display: flex;
+    gap: 10px;
+}
+
+.search {
+    padding: 10px 15px;
+    border-radius: 12px;
+    outline: none;
+    border: 2px solid transparent;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    width: 540px;
+    color: #fff;
     box-shadow: inset 2px 2px 4px 0 rgba(0, 0, 0, 0.25), inset -2px -2px 4px 0 rgba(255, 255, 255, 0.25);
+    background: #24272c;
+}
+
+.search:hover {
+    border: 2px solid #0aff99;
+}
+
+.sortBtn {
+    padding: 10px 14px;
+    border-radius: 50px;
+    border: 2px solid transparent;
+    outline: none;
+    cursor: pointer;
+    box-shadow: inset 2px 2px 4px 0 rgba(0, 0, 0, 0.25), inset -2px -2px 4px 0 rgba(255, 255, 255, 0.25);
+    background: #24272c;
+}
+
+.sortBtn:hover {
+    border: 2px solid #0aff99;
 }
 
 .loader {
     position: fixed;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 125px;
-    height: 125px;
+    width: 50px;
+    height: 50px;
     border: 5px solid #5ab0ff;
     border-radius: 50%;
     border-left-color: transparent;

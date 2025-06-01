@@ -1,0 +1,29 @@
+{
+  "todos": [
+    {
+      "title": "Create react app",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "title": "Git init",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "First commit",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "title": "Second commit",
+      "completed": false,
+      "id": 4
+    },
+    {
+      "title": "Initial firebase",
+      "completed": false,
+      "id": 5
+    }
+  ]
+}
