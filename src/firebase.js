@@ -1,14 +1,14 @@
-import {initializeApp} from "firebase/app";
-import {getDatabase} from "firebase/database";
+import { initializeApp } from "firebase/app";
+import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyAjS6P-zsYhQB3Xa31aFjEb4APa1AVV-J8",
-    authDomain: "todoslist-fb1a6.firebaseapp.com",
-    projectId: "todoslist-fb1a6",
-    storageBucket: "todoslist-fb1a6.firebasestorage.app",
-    messagingSenderId: "592862781119",
-    appId: "1:592862781119:web:4f6d7935f937bb5e79300a",
-    databaseURL: "https://todoslist-fb1a6-default-rtdb.europe-west1.firebasedatabase.app/",
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID,
+    databaseURL: import.meta.env.VITE_FIREBASE_DATABASE_URL,
 };
 
 const app = initializeApp(firebaseConfig);
