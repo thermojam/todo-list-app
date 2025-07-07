@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "title": "Finished state manager module",
+      "completed": false,
+      "id": 1
+    },
+    {
+      "title": "npm run dev",
+      "completed": false,
+      "id": 2
+    }
+  ]
+}
